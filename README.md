@@ -8,9 +8,9 @@
 - when change status of Order : send all information of Order, include status to api : https://gateway.kiotrade.vn/g1/order
    Mapping status of your system Order to KioTrade Order Status : 
 - Example:
--  ===========Your system order status============||=============KioTrade order status============
--    New, In progress, Pendding, Processing       ||                New    ( 1 )
--    Cancel, Return                               ||                Cancel ( 3 ) 
--    Paid                                         ||                Paid   ( 2 ) 
--    Deliveried                                   ||                Finish ( 4 )
+-  ====Your system order status====||====KioTrade order status====
+-  ====New, In progress, Pendding, Processing,...====||====New( 1 )====
+-  ====Cancel, Return ====||====Cancel ( 3 )====
+-  ====Paid====||====Paid   ( 2 )====
+-  ====Deliveried====||====Finish ( 4 )====
    
